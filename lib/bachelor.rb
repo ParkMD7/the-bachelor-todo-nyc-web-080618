@@ -83,7 +83,7 @@ def get_average_age_for_season(data, season)
         #binding.pry
           if season_key == "age"
             cont_counter+=1
-            cont_ages+=value.to_f
+            cont_ages+=season_value.to_f
           end
       end
   end
