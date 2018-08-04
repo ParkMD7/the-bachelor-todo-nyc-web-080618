@@ -4,10 +4,10 @@ require 'pry'
 def get_first_name_of_season_winner(data, season)
   winner = ""
   
-  data[season].each do |season_info|
+  data[season].each do |cont|
     #binding.pry
-      if season_info["status"].downcase == "winner"
-        winner = season_info["name"]
+      if cont["status"].downcase == "winner"
+        winner = cont["name"]
       end
   end
   winner.split(" ")[0]
