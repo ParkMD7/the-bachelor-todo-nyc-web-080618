@@ -90,5 +90,5 @@ def get_average_age_for_season(data, season)
           end
       end
   end
-  hometown_counter
+  (cont_counter/cont_counter)
 end
