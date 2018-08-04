@@ -64,7 +64,7 @@ def get_occupation(data, hometown)
       szn_info.each do |cont|
         #binding.pry
           if cont.has_value?(hometown)
-            cont["occupation"]
+            return cont["occupation"]
           end
       end
   end
