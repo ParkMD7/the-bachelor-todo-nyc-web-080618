@@ -84,7 +84,8 @@ def get_average_age_for_season(data, season)
           cont.each do |season_key, season_value|
             #binding.pry
               if season_value == "age"
-                hometown_counter+=1
+                cont_counter+=1
+                cont_ages+=value.to_f
               end
           end
       end
