@@ -74,7 +74,8 @@ end
 
 
 def get_average_age_for_season(data, season)
-  hometown_counter = 0
+  cont_counter = 0
+  cont_ages = 0
   
   data.each do |szn_number, szn_info|
     #binding.pry
